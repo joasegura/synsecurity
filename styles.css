@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding-top: 0px; /* Ajusta el valor según la altura del navbar */
+}
+
+/* Navbar */
+.bg-gradient {
+    position: fixed; /* Mantiene la navbar fija */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050; /* Asegura que esté sobre otros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra para destacar */
+    opacity: 0.95; /* Transparencia para diseño moderno */
+}
+
+.navbar-brand img {
+    border-radius: 25%; /* Redondear bordes para un diseño circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Efecto hover */
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    background: url(background.png) no-repeat center center; /* Centrar la imagen y evitar repeticiones */
+    background-size: cover; /* Asegura que la imagen ocupe todo el área */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding-top: 80px; /* Compensa la altura del navbar */
+    color: rgb(46, 48, 155);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* Animaciones */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Sección Productos y Servicios */
+#products-services .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#products-services .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#products-services img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Flota al pasar el ratón */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Nuestra Propuesta */
+#our-proposal .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#our-proposal .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+#our-proposal i {
+    color: #007bff;
+}
+
+/* Nuestra Visión */
+#our-vision {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#our-vision h2 {
+    color: #343a40;
+}
+
+/* Por qué Elegirnos */
+#why-choose-us {
+    padding: 50px 0;
+}
+
+#why-choose-us .lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+/* Sección de Contacto */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 20px; /* Separación del footer */
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#contact .form-label {
+    font-weight: bold;
+}
+
+#contact button {
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+}
+
+#contact button:hover {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+
+
+
+/* Section Titles */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* About Section */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px; /* Separación para evitar que el footer se superponga */
+}
