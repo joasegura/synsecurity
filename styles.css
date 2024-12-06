@@ -1,9 +1,12 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxanium', sans-serif;
     line-height: 1.6;
     padding-top: 0px; /* Ajusta el valor según la altura del navbar */
 }
+
+
+
 
 /* Navbar */
 .bg-gradient {
@@ -30,7 +33,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url(background.png) no-repeat center center; /* Centrar la imagen y evitar repeticiones */
+    background: url(banner.jpeg) no-repeat center center; /* Centrar la imagen y evitar repeticiones */
     background-size: cover; /* Asegura que la imagen ocupe todo el área */
     height: 100vh; /* Ocupa toda la altura de la ventana */
     padding-top: 80px; /* Compensa la altura del navbar */
@@ -143,7 +146,7 @@ body {
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    /*color: #333;*/
     position: relative;
     display: inline-block;
 }
