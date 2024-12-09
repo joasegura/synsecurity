@@ -3,6 +3,7 @@ body {
     font-family: 'Oxanium', sans-serif;
     line-height: 1.6;
     padding-top: 0px; /* Ajusta el valor según la altura del navbar */
+    color: #01406A;
 }
 
 
@@ -45,6 +46,41 @@ body {
     flex-direction: column;
 }
 
+
+/*.hero-section {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(banner.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fade-in 2s ease-in-out;
+}
+
+/* Botones */
+.btn:hover {
+    background-color: #013F6C;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* Back-to-Top Button */
+#back-to-top {
+    z-index: 1050;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
 
 
 /* Animaciones */
@@ -95,9 +131,6 @@ body {
     padding: 50px 0;
 }
 
-#our-vision h2 {
-    color: #343a40;
-}
 
 /* Por qué Elegirnos */
 #why-choose-us {
@@ -178,3 +211,35 @@ footer {
     color: #fff;
     margin-top: 20px; /* Separación para evitar que el footer se superponga */
 }
+
+
+
+/* Animación inicial (oculto) */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-in-out;
+}
+
+/* Clase visible (animado) */
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.btn-hero {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+}
+
