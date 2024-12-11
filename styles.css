@@ -6,6 +6,27 @@ body {
     color: #01406A;
 }
 
+.fas.fa-cogs {
+    color: #033F6A !important; /* Color para Integridad */
+}
+.fas.fa-globe {
+    color: #033F6A !important; /* Color para Responsabilidad */
+}
+.fas.fa-handshake {
+    color: #033F6A !important; /* Color para Seguridad */
+}
+
+.fas.fa-rocket {
+    color: #033F6A !important; /* Color para Seguridad */
+}
+
+.fas.fa-hands-helping{
+    color: #033F6A !important;
+}
+
+.fas.fa-chart-line{
+    color: #033F6A !important;
+}
 
 
 
